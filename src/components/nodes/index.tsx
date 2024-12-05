@@ -104,19 +104,19 @@ const NodeComponent = ({
 								}}>
 								<button
 									onClick={() =>
-										console.log(`copy ${node.name}`)
+										console.log(`copy ${node.name} `)
 									}>
 									copy
 								</button>
 								<button
 									onClick={() =>
-										console.log(`delete ${node.name}`)
+										console.log(`delete ${node.name} `)
 									}>
 									delete
 								</button>
 								<button
 									onClick={() =>
-										console.log(`rename ${node.name}`)
+										console.log(`rename ${node.name} `)
 									}>
 									rename
 								</button>

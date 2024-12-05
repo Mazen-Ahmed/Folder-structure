@@ -102,9 +102,24 @@ const NodeComponent = ({
 									zIndex: 999,
 									bottom: -80,
 								}}>
-								<button>copy</button>
-								<button>delete</button>
-								<button>rename</button>
+								<button
+									onClick={() =>
+										console.log(`copy ${node.name}`)
+									}>
+									copy
+								</button>
+								<button
+									onClick={() =>
+										console.log(`delete ${node.name}`)
+									}>
+									delete
+								</button>
+								<button
+									onClick={() =>
+										console.log(`rename ${node.name}`)
+									}>
+									rename
+								</button>
 							</div>
 						)}
 					</div>
